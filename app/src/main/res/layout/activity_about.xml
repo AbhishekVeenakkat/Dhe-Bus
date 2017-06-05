@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ggg"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/busabout"
+                android:background="@color/white"
+                android:id="@+id/gifImageView" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/logodhebus"
+            android:id="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:text="Developed By :\n\nAbhishek V\nAkash Prasad N\nAnju C\nAnamika K\nMegna T Sreedhar\n\nDeveloped as a part of B.Tech Main Project for the year 2016-17 under the guidance of \nMr. Harikrishnan G.R (Asst. Prof. Dept. of CSE MESCE)\n\n©MESCE 2017"
+            android:id="@+id/textView8"
+
+            />
+    </RelativeLayout>
+</LinearLayout>

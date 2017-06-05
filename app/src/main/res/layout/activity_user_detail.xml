@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlayout"
+        android:layout_width="match_parent"
+        android:background="@drawable/side_nav_bar"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/usericon"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Account Details"
+            android:paddingTop="18dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <Button
+        android:text="SAVE"
+        android:onClick="saveInfo"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:background="@color/orange"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/save" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlayout"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true">
+    <TextView
+        android:text="Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abhishek"
+        android:layout_toRightOf="@+id/name"
+        android:layout_toEndOf="@+id/name"
+        android:id="@+id/nameedit"
+        android:inputType="textPersonName" />
+        <TextView
+            android:text="Address :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="2dp"
+            android:layout_below="@+id/nameedit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/Address" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pallavi, Feroke, Calicut"
+            android:layout_below="@+id/nameedit"
+            android:layout_toRightOf="@+id/Address"
+            android:layout_toEndOf="@+id/Address"
+            android:id="@+id/addressedit"
+            android:inputType="textPostalAddress" />
+        <TextView
+            android:text="Phone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="2dp"
+            android:layout_below="@+id/addressedit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/Phone" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pallavi, Feroke, Calicut"
+            android:layout_below="@+id/addressedit"
+            android:layout_toRightOf="@+id/addressedit"
+            android:layout_toEndOf="@+id/Phone"
+            android:id="@+id/phoneedit"
+            android:inputType="phone" />
+        <TextView
+            android:text="Secondary Phone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="2dp"
+            android:layout_below="@+id/phoneedit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/sPhone" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text="Pallavi, Feroke, Calicut"
+            android:layout_below="@+id/phoneedit"
+            android:layout_toRightOf="@+id/addressedit"
+            android:layout_toEndOf="@+id/sPhone"
+            android:id="@+id/sphoneedit" />
+        <TextView
+            android:text="Secondary Phone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="2dp"
+            android:layout_below="@+id/phoneedit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/sPhone" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="IP Address"
+        android:ems="10"
+        android:layout_above="@+id/save"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ipaddress"
+        android:textColor="?attr/colorButtonNormal" />
+
+
+</RelativeLayout>

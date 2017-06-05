@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30"
+                android:maxLength="5"
+                android:textColor="#2196f3"
+                android:id="@+id/stime"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_below="@id/stime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:30"
+                android:maxLength="5"
+                android:textColor="#27ae60"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="26dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/dtime" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/stime"
+                android:src="@drawable/locblue"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="46dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/stime"
+                android:src="@drawable/dot"
+                android:id="@+id/imageView4" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/stime"
+                android:src="@drawable/dot"
+                android:id="@+id/imageView3" />
+            <ImageView
+                android:layout_width="25dp"
+                android:id="@+id/greendot"
+                android:layout_height="25dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/stime"
+                android:src="@drawable/locgreen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:id="@+id/name"
+                android:textColor="#424242"
+                android:layout_marginLeft="15dp"
+                android:text="Kottayam - Ernakulam"
+                android:layout_toRightOf="@+id/greendot"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:textColor="#757575"
+                android:layout_marginTop="2dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:id="@+id/via"
+                android:layout_marginLeft="15dp"
+                android:text="Via Thalayolaparambu"
+                android:layout_toRightOf="@+id/greendot"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/via"
+                android:textColor="#2E7D32"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:textAllCaps="true"
+                android:text="VOLVO AC Seater"
+                android:layout_toRightOf="@+id/greendot"
+                android:id="@+id/type" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/type"
+                android:textColor="#4DB6AC"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:textAllCaps="true"
+                android:text="VOLVO AC Seater"
+                android:layout_toRightOf="@+id/greendot"
+                android:id="@+id/rat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 25"
+                android:textColor="#8D6E63"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:id="@+id/money"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_alignBaseline="@+id/asa"
+                android:layout_alignBottom="@+id/asa"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minimum charge   "
+                android:textColor="#8D6E63"
+                android:textSize="10dp"
+                android:id="@+id/asa"
+
+                android:layout_alignBaseline="@+id/dtime"
+                android:layout_alignBottom="@+id/dtime"
+                android:layout_toLeftOf="@+id/money"
+                android:layout_toStartOf="@+id/money" />
+
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/rid" />
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/crating" />
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/srating" />
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/prating" />
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/rcount" />
+            <TextView
+                android:text="id"
+                android:textColor="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stime"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/status" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
+</LinearLayout>

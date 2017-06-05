@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Dhe Bus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="bustypes">
+        <item>All</item>
+        <item>Super Deluxe Air Bus</item>
+        <item>Garuda King Class AC Volvo Multi Axle</item>
+        <item>Super Fast</item>
+        <item>Super Express</item>
+        <item>LS Fast Passenger</item>
+        <item>Garuda Maharaja AC Scania Multi Axle</item>
+        <item>Fast Passenger</item>
+        <item>Ordinary</item>
+        <item>LS Ordinary</item>
+        <item>Town - Town</item>
+        <item>Volvo AC LF</item>
+        <item>Double Decker</item>
+        <item>Fast Passenger PP</item>
+        <item>Fast Passenger FP</item>
+        <item>Garuda Volvo AC B7R</item>
+        <item>Silver Line Jet</item>
+        <item>Limited Stop</item>
+        <item>LF Non AC</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Kozhikode</item>
+        <item>Kasargode</item>
+        <item>Kannur</item>
+        <item>Thrissur</item>
+        <item>Edappal</item>
+        <item>Ernakulam</item>
+    </string-array>
+    <string name="title_activity_searchcity">searchcity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+    <string name="title_activity_single_bus_info">SingleBusInfo</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
